@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter-tight: "Inter Tight", sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", monospace;
+
+  --color-main: #93d009;
+  --color-light: #f3f3f3;
+  --color-border: #303030;
+  --color-dark: #1e1e1e;
+}
+
+/* Smooth scrolling + Offset Sticky Header otomatis */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-dark);
+  
+  /* 💡 KUNCI UTAMA: Memberi jarak aman di atas agar tidak tertutup Sticky Navbar (~88px) */
+  scroll-padding-top: 4rem; 
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
