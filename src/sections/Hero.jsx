@@ -37,7 +37,7 @@ function Hero({ id }) {
 
                     {/* Badge Nama */}
                     <p className="lowercase px-3 py-1 text-xs md:text-base lg:text-2xl bg-main text-dark font-bold tracking-tighter lg:tracking-[-2px] w-fit">
-                        Hi! i'm abidal farzan... in a need for a
+                        in a need for a
                     </p>
 
                     {/* Box Teks 3 Baris dengan Animasi Transition */}
@@ -88,7 +88,7 @@ function Hero({ id }) {
 
                 {/* Scroll Down */}
                 <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3 animate-bounce ">
-                    <span className="text-light text-base md:text-lg lg:text-2xl uppercase tracking-tighter font-jetbrains-mono">
+                    <span className="text-light text-sm md:text-lg lg:text-2xl uppercase tracking-tighter font-jetbrains-mono">
                         You just found me!
                     </span>
                     <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-bounce">
