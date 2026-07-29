@@ -23,5 +23,13 @@ export const EXPERIENCES_DATA = [
         location: "Pekajangan, Central Java",
         date: "26-27 June 2026",
     },
+    {
+        id: 4,
+        title: "Basic Design Training with Canva & Figma",
+        desc: "Led a 3-day design workshop at Ponpes Al Madinah, Prabumulih. Mentored participants in fundamental graphic design concepts, layouting, and visual asset creation using Canva and Figma to boost their digital creative skills.",
+        image: "/experiences/mengajar_madina.png", // Sesuaikan dengan nama file foto lu
+        location: "Prabumulih, South Sumatra",
+        date: "21-23 October 2025",
+    },
 
 ];

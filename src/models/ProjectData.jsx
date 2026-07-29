@@ -5,7 +5,7 @@ export const PROJECTS_DATA = [
         desc: "A comprehensive daily intake and health tracking application designed to monitor daily nutrition, consumption habits, and health metrics. Led the frontend development and UI design to create an intuitive, clean, and seamless user experience.",
         image: "/projects/project_image1.png",
         category: ["Team Project", "ReactJS", "Tailwind CSS", "UI/UX Design"],
-        link: "https://github.com/" // Tinggal sesuaikan dengan link repo/demo kamu
+        link: "https://github.com/CC26-PS122/growzy-frontend" // Tinggal sesuaikan dengan link repo/demo kamu
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const PROJECTS_DATA = [
         desc: "A web-based neighborhood management system designed to streamline resident administration, housing records, and monthly community fee (iuran) collection. Built to enhance transparency and simplify data management for local neighborhood leaders.",
         image: "/projects/project_image2.png",
         category: ["ReactJS", "Tailwind CSS", "Laravel", "Chart.js", "MySQL"],
-        link: "https://github.com/" // Sesuaikan dengan link repo/demo kamu
+        link: "https://github.com/abidalfarzan/rt-management-frontend" // Sesuaikan dengan link repo/demo kamu
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const PROJECTS_DATA = [
         desc: "An enterprise management platform built for PT Dipuro Berkah Jaya to optimize financial tracking and employee attendance. Features real-time attendance logs, financial reporting, and seamless cloud deployment on Railway.",
         image: "/projects/project_image3.png",
         category: ["Team Project", "Laravel", "Tailwind CSS", "MySQL", "Railway"],
-        link: "https://github.com/" // Sesuaikan dengan link repo/demo kamu
+        link: "https://github.com/Tim-Three/web-management-pt-dbj" // Sesuaikan dengan link repo/demo kamu
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ export const PROJECTS_DATA = [
         desc: "Platform digital yang dirancang untuk mempermudah siswa dan ustadz di IDN Boarding School dalam mengelola, memantau, serta mencatat alur penerimaan dan pengiriman paket sekolah secara terorganisir.",
         image: "/projects/project_image4.png",
         category: ["Team Project", "ReactJS", "Tailwind CSS", "JavaScript", "Frontend"],
-        link: "https://github.com/" // tinggal ganti link repo / live demo-nya
+        link: "https://github.com/IbnuMuhadzdzib/idnpackage-frontend" // tinggal ganti link repo / live demo-nya
     },
     {
         id: 5,
@@ -37,6 +37,6 @@ export const PROJECTS_DATA = [
         desc: "Platform media aspirasi digital bagi siswa dan seluruh warga IDN Boarding School untuk menyampaikan masukan, ide, serta kritik membangun demi mendorong kemajuan dan pengembangan sekolah secara transparan.",
         image: "/projects/project_image5.png",
         category: ["Team Project", "Laravel", "PHP", "MySQL", "Filament"],
-        link: "https://github.com/" // tinggal ganti link repo / live demo-nya
+        link: "https://github.com/abidalfarzan/idnbersuara_public" // tinggal ganti link repo / live demo-nya
     },
 ];

@@ -14,14 +14,14 @@ function Project({ id }) {
                 </h1>
 
                 {/* Desktop Grid */}
-                <div className="hidden container md:grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-6">
+                <div className="hidden container md:grid grid-cols-2 justify-items-center items-center gap-y-6">
                     {PROJECTS_DATA.slice(0, 4).map((items) => (
                         <ProjectCard key={items.id} {...items} />
                     ))}
                 </div>
 
                 {/* Mobile Grid */}
-                <div className="container grid md:hidden grid-cols-1 md:grid-cols-2 justify-center items-center gap-6">
+                <div className="container grid md:hidden grid-cols-1 justify-items-center items-center gap-y-4">
                     {PROJECTS_DATA.slice(0, 2).map((items) => (
                         <ProjectCard key={items.id} {...items} />
                     ))}

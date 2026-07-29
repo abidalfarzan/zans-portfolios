@@ -4,7 +4,7 @@ function ProjectCard({ title = 'Project', desc = 'More details coming soon.', im
     const safeCategories = Array.isArray(category) ? category : [];
 
     return (
-        <div className="flex flex-col p-4 bg-dark border-2 border-main space-y-3 w-full h-full hover:scale-101 transform duration-300 hover:shadow-[0_0_12px_#93d009]">
+        <div className="flex flex-col p-4 bg-dark border-2 border-main space-y-3 w-full max-w-xl h-full hover:scale-101 transform duration-300 hover:shadow-[0_0_12px_#93d009]">
 
             {/* Pembungkus utama untuk posisi relative */}
             <div className="relative w-full overflow-hidden">
